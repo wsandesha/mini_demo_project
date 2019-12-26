@@ -1,0 +1,263 @@
+	body{
+		    font-family: sans-serif;
+		    margin: 0;
+		}
+		.notify{
+			width: 100%;
+			background-color: #222220;
+			color: #fff;
+			font-size: 17px;
+			text-align: center;
+			height: 27px;
+		}
+		.logo_wrapper {
+			display: flex;
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+		.brand-logo{
+			width: 65%;
+			margin-bottom: 1px solid #fff;
+			padding: 5px;
+		}
+		.logo{
+			margin: 5px 0;
+			width: 103px;
+			height: auto;
+			padding-right: 19%;
+			float: right;
+		}
+		.search-wrapper{
+			display: flex;
+			width: 35%;
+		}
+		.search-bar{
+			width: 70%;
+			position: relative;
+			display: table;
+			border-collapse: separate;
+			float: right;
+		}
+		.icon{
+			width: 30%;
+			font-size: 28px;
+		}
+		.icon a i{
+			color: black;
+		}
+		.input{
+			width: 90%;
+			height: 30px;
+		}
+		.fa-user-search{
+			position: absolute;
+  			font-size: 20px;
+   			margin-top: 10px;
+   			cursor: pointer;
+   			margin-right: 25px;
+		}
+		.fa-user-circle{
+			margin-left: 10px;
+		}
+		.nav1{
+			text-align: center;
+			font-size: 12px;
+			color: #ccc;
+			padding: 5px;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		#navigation li{
+			display: inline-block;
+			margin-right: 10px;
+			text-align: center;
+		}
+		/*.navi{
+			font-size: 12px;
+			text-decoration: none;
+			color: black;
+		}*/
+		#navigation > li > a{
+			color: black;
+			text-decoration: none;
+		}
+		
+	    #navigation > span > li > a{
+	    	color: #e2403d;
+	    	text-decoration: none;
+	    }
+
+		.nav2{
+			text-align: center;
+			font-size: 12px;
+			color: #ccc;
+			padding: 5px;
+			border-bottom: 1px solid #ccc;
+		}
+		
+		#navigation2 li{
+			display: inline-block;
+			margin-right: 10px;
+		}
+		#navigation2 li a{
+			font-size: 12px;
+			color: black;
+			text-decoration: none;
+		}
+		#ship{
+			color: #8d8d8d;
+			font-size: 18px;
+		}
+		#sign-in{
+			color: #8d8d8d;
+			font-size: 15px;
+		}
+		#return{
+			color: #8d8d8d;
+			font-size: 15px;
+		}
+		.banner {
+ 			 width: 100%;
+ 			 height: auto;
+		}
+		.row1::after {
+  		 	clear: both;
+  			display: inline-grid;
+  			padding:5px;
+		}
+
+		.row1 img{
+			width: 100%;
+			height: auto;
+		}
+		.column {
+		  float: left;
+ 		 width: 32.3%;
+ 		 padding: 5px;
+ 		 
+		}
+		.column1 {
+		  float: left;
+ 		 width: 48.5%;
+ 		 padding: 10px;
+ 		 	}
+
+		.column2 {
+		  float: left;
+ 		 width: 32.3%;
+ 		 padding: 5px;
+ 		 
+		}
+		#car2{
+			color: #8d8d8d;
+			font-size: 18px;
+		}
+		#signin2{
+			color: #8d8d8d;
+			font-size: 15px;
+		}
+		#easy2{
+			color: #8d8d8d;
+			font-size: 15px;
+		}
+		.column3 a{
+			text-decoration: none;
+			color:#8d8d8d;
+			font-size: 12px;
+		}
+		.column3{
+			  float: left;
+			  width: 32.3%;
+			  padding: 5px ;
+			  text-align: center;
+		}
+		.row2 {
+  		 	
+  			display: inline-flex;
+  			padding:5px;
+		}
+
+		.row2 img{
+			width: 100%;
+			height: auto;
+		}
+		.column4{
+			width: 25%;
+			padding: 10px;
+
+		}
+		.footer{
+			background-color: #f2f2f2;
+		
+			
+		}
+		.row_1{
+			width: 100%;
+			height: 200px;
+		}
+		
+
+		.col1{
+			float: left;
+			width: 25%;
+			height: auto;
+			text-transform: uppercase;
+		}
+		.icon2 li{
+				display: inline-block;
+				text-align: center;
+				margin: 2.5%;
+			}
+			.icon2{
+				text-align: center;
+				font-size:25px;
+			}
+			.foot1{
+				padding: 45px;
+			}
+			.foot{
+				padding: 30px;
+			}
+			.foot li a{
+				font-size: 12px;
+				color: black;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+			.list{
+				padding-bottom:40px;
+			}
+			.col2{
+				padding-top: 210px;
+			}
+			
+			.link{
+				text-align: center;
+				width: 100%;
+				height: 60px;
+				
+    			
+			}
+			.link a{
+				text-decoration: none;
+				color: black;
+				text-transform: uppercase;
+				font-size: 12px;
+
+			}
+		.fa-arrow-up{
+			float: right;
+		    bottom: 20px;
+		    right: 20px;
+		    font-size: 36px;
+		    cursor: pointer;
+		    color: #656363;
+		    width: 55px;
+		    height: 55px;
+		    text-align: center;
+		    line-height: 55px;
+		    z-index: 9;
+		    border: 1px solid #666666;
+		    background: #ffffff;
+		}
