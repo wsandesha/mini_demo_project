@@ -31,6 +31,7 @@
 			width: 35%;
 		}
 		.search-bar{
+			display: flex;
 			width: 70%;
 			position: relative;
 			float: left;
@@ -55,11 +56,13 @@
 		    right: 0px;
 		    font-size: 20px;
 		    padding-bottom: 10px;
+		    padding-right: 2%;
+		    color:black;
 
 		}
 		.icon .fa-shopping-cart{
 			font-size: 30px;
-			padding-left: 30px;
+			padding-left: 20px;
 		}
 		.fa-user-circle{
 			font-size: 30px;
@@ -127,15 +130,43 @@
  			 width: 100%;
  			 height: auto;
 		}
-		.row1::after {
-  		 	clear: both;
-  			display: inline-grid;
+		.row{
   			padding:5px;
-		}
+ 			height: 650px;
+ 		}
 
+		.row img{
+			width: 100%;
+			height: auto;
+		}
+		.row1{
+			height: 530px;
+			padding: 5px;
+		}
 		.row1 img{
 			width: 100%;
 			height: auto;
+		}
+		.row2{
+			height:660px;
+			padding: 5px;
+		}
+		.row2 img{
+			width: 100%;
+			height: auto;
+		}
+		.row3{
+			height: 60px;
+			padding: 5px;
+		}
+
+		.row4{
+			display: inline-flex;
+			padding: 5px;
+		}
+		.row4 img{
+			width: 100%;
+			height:auto;
 		}
 		.column {
 		  float: left;
@@ -178,16 +209,7 @@
 			  padding: 5px ;
 			  text-align: center;
 		}
-		.row2 {
-  		 	
-  			display: inline-flex;
-  			padding:5px;
-		}
 
-		.row2 img{
-			width: 100%;
-			height: auto;
-		}
 		.column4{
 			width: 25%;
 			padding: 10px;
